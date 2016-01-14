@@ -1,0 +1,684 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DIGITS_STRING"
+- "RSCodeGenerator"
+- "RSCheckDigitGenerator"
+- "RSAbstractCodeGenerator"
+provides-nominal:
+- "P5SHPID15RSCodeGenerator"
+- "P5SHPID21RSCheckDigitGenerator"
+- "C5SHPID23RSAbstractCodeGenerator"
+provides-member:
+- ["P5SHPID15RSCodeGenerator", ""]
+- ["P5SHPID21RSCheckDigitGenerator", ""]
+- ["C5SHPID23RSAbstractCodeGenerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVMetadataObjectTypeCode128Code"
+- "UIImage"
+- !private "-"
+- "DIGITS_STRING"
+- !private "Int"
+- !private "*"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "=="
+- !private ">"
+- !private "!"
+- !private "+"
+- !private "..<"
+- "StringLiteralType"
+- "RSCheckDigitGenerator"
+- !private "CGContextAddLineToPoint"
+- !private "CIContext"
+- !private "CGContextDrawPath"
+- "RSAbstractCodeGenerator"
+- !private "CGContextSetLineWidth"
+- !private "AVMetadataObjectTypeAztecCode"
+- !private "UIGraphicsEndImageContext"
+- "UIColor"
+- !private "AVMetadataObjectTypePDF417Code"
+- !private "CGPathDrawingMode"
+- !private "CGSizeMake"
+- !private "CIFilter"
+- !private "UIGraphicsBeginImageContext"
+- "String"
+- !private "AVMetadataObjectTypeQRCode"
+- "AVMetadataMachineReadableCodeObject"
+- !private "CGContextSetInterpolationQuality"
+- !private "CGContextFillRect"
+- !private "UIGraphicsGetCurrentContext"
+- !private "NSUTF8StringEncoding"
+- "RSCodeGenerator"
+- !private "CGInterpolationQuality"
+- !private "UnicodeScalarType"
+- !private "<="
+- !private "CGRectMake"
+- !private "CGContextSetShouldAntialias"
+- "CGFloat"
+- "Bool"
+- !private "CGContextMoveToPoint"
+- !private "BooleanLiteralType"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- !private "UIImageOrientation"
+depends-member:
+- !private ["CSo35AVMetadataMachineReadableCodeObject", "stringValue"]
+- !private ["CSo35AVMetadataMachineReadableCodeObject", "type"]
+- !private ["CSo16AVMetadataObject", "stringValue"]
+- !private ["CSo16AVMetadataObject", "type"]
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeAztecCode"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode128Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypePDF417Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeQRCode"]
+- !private ["PSs9AnyObject", "CGContextAddLineToPoint"]
+- !private ["PSs9AnyObject", "CGContextDrawPath"]
+- !private ["PSs9AnyObject", "CGContextFillRect"]
+- !private ["PSs9AnyObject", "CGContextMoveToPoint"]
+- !private ["PSs9AnyObject", "CGContextSetInterpolationQuality"]
+- !private ["PSs9AnyObject", "CGContextSetLineWidth"]
+- !private ["PSs9AnyObject", "CGContextSetShouldAntialias"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGInterpolationQuality"]
+- !private ["PSs9AnyObject", "CGPathDrawingMode"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "CGSizeMake"]
+- !private ["PSs9AnyObject", "CIContext"]
+- !private ["PSs9AnyObject", "CIFilter"]
+- !private ["PSs9AnyObject", "DIGITS_STRING"]
+- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
+- ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIGraphicsBeginImageContext"]
+- !private ["PSs9AnyObject", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSs9AnyObject", "UIGraphicsEndImageContext"]
+- !private ["PSs9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["PSs9AnyObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "UIImageOrientation"]
+- !private ["PSs9AnyObject", "barcode"]
+- ["PSs9AnyObject", "blackColor"]
+- !private ["PSs9AnyObject", "completeBarcode"]
+- !private ["PSs9AnyObject", "contains"]
+- !private ["PSs9AnyObject", "createCGImage"]
+- !private ["PSs9AnyObject", "dataUsingEncoding"]
+- !private ["PSs9AnyObject", "drawCompleteBarcode"]
+- !private ["PSs9AnyObject", "drawInRect"]
+- !private ["PSs9AnyObject", "extent"]
+- ["PSs9AnyObject", "fillColor"]
+- ["PSs9AnyObject", "generateCode"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "initiator"]
+- !private ["PSs9AnyObject", "isValid"]
+- !private ["PSs9AnyObject", "length"]
+- !private ["PSs9AnyObject", "outputImage"]
+- !private ["PSs9AnyObject", "setDefaults"]
+- !private ["PSs9AnyObject", "setFill"]
+- !private ["PSs9AnyObject", "setStroke"]
+- !private ["PSs9AnyObject", "setValue"]
+- !private ["PSs9AnyObject", "size"]
+- !private ["PSs9AnyObject", "stringValue"]
+- ["PSs9AnyObject", "strokeColor"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "terminator"]
+- !private ["PSs9AnyObject", "type"]
+- ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "_DisabledRangeIndex"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["OSC22CGInterpolationQuality", "None"]
+- !private ["OSC17CGPathDrawingMode", "FillStroke"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["CSo9CIContext", "createCGImage"]
+- !private ["CSo9CIContext", "init"]
+- !private ["CSo8CIFilter", "init"]
+- !private ["CSo8CIFilter", "outputImage"]
+- !private ["CSo8CIFilter", "setDefaults"]
+- !private ["CSo8CIFilter", "setValue"]
+- !private ["CSo7CIImage", "extent"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "_DisabledRangeIndex"]
+- ["PSs11CVarArgType", "blackColor"]
+- !private ["PSs11CVarArgType", "contains"]
+- !private ["PSs11CVarArgType", "createCGImage"]
+- !private ["PSs11CVarArgType", "dataUsingEncoding"]
+- !private ["PSs11CVarArgType", "drawInRect"]
+- !private ["PSs11CVarArgType", "extent"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- !private ["PSs11CVarArgType", "outputImage"]
+- !private ["PSs11CVarArgType", "setDefaults"]
+- !private ["PSs11CVarArgType", "setFill"]
+- !private ["PSs11CVarArgType", "setStroke"]
+- !private ["PSs11CVarArgType", "setValue"]
+- !private ["PSs11CVarArgType", "size"]
+- !private ["PSs11CVarArgType", "stringValue"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "type"]
+- ["PSs11CVarArgType", "whiteColor"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs10Comparable", "contains"]
+- !private ["PSs10Comparable", "dataUsingEncoding"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "length"]
+- !private ["PSs10Comparable", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "contains"]
+- !private ["PSs28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["PSs28CustomDebugStringConvertible", "length"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "blackColor"]
+- !private ["PSs23CustomStringConvertible", "contains"]
+- !private ["PSs23CustomStringConvertible", "createCGImage"]
+- !private ["PSs23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["PSs23CustomStringConvertible", "drawInRect"]
+- !private ["PSs23CustomStringConvertible", "extent"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "outputImage"]
+- !private ["PSs23CustomStringConvertible", "setDefaults"]
+- !private ["PSs23CustomStringConvertible", "setFill"]
+- !private ["PSs23CustomStringConvertible", "setStroke"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- !private ["PSs23CustomStringConvertible", "size"]
+- !private ["PSs23CustomStringConvertible", "stringValue"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "type"]
+- ["PSs23CustomStringConvertible", "whiteColor"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "FillStroke"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "Up"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "blackColor"]
+- !private ["PSs9Equatable", "contains"]
+- !private ["PSs9Equatable", "createCGImage"]
+- !private ["PSs9Equatable", "dataUsingEncoding"]
+- !private ["PSs9Equatable", "drawInRect"]
+- !private ["PSs9Equatable", "extent"]
+- !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "outputImage"]
+- !private ["PSs9Equatable", "setDefaults"]
+- !private ["PSs9Equatable", "setFill"]
+- !private ["PSs9Equatable", "setStroke"]
+- !private ["PSs9Equatable", "setValue"]
+- !private ["PSs9Equatable", "size"]
+- !private ["PSs9Equatable", "stringValue"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "type"]
+- ["PSs9Equatable", "whiteColor"]
+- !private ["PSs9Equatable", "width"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "contains"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "length"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "subscript"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["VSs16HalfOpenInterval", "deinit"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "FillStroke"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "None"]
+- !private ["PSs8Hashable", "Up"]
+- !private ["PSs8Hashable", "_DisabledRangeIndex"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "blackColor"]
+- !private ["PSs8Hashable", "contains"]
+- !private ["PSs8Hashable", "createCGImage"]
+- !private ["PSs8Hashable", "dataUsingEncoding"]
+- !private ["PSs8Hashable", "drawInRect"]
+- !private ["PSs8Hashable", "extent"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- !private ["PSs8Hashable", "outputImage"]
+- !private ["PSs8Hashable", "setDefaults"]
+- !private ["PSs8Hashable", "setFill"]
+- !private ["PSs8Hashable", "setStroke"]
+- !private ["PSs8Hashable", "setValue"]
+- !private ["PSs8Hashable", "size"]
+- !private ["PSs8Hashable", "stringValue"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "type"]
+- ["PSs8Hashable", "whiteColor"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "_DisabledRangeIndex"]
+- !private ["PSs14MirrorPathType", "contains"]
+- !private ["PSs14MirrorPathType", "dataUsingEncoding"]
+- !private ["PSs14MirrorPathType", "length"]
+- !private ["PSs14MirrorPathType", "subscript"]
+- ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "contains"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "drawInRect"]
+- !private ["PSo8NSCoding", "extent"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "outputImage"]
+- !private ["PSo8NSCoding", "setDefaults"]
+- !private ["PSo8NSCoding", "setFill"]
+- !private ["PSo8NSCoding", "setStroke"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo8NSCoding", "size"]
+- !private ["PSo8NSCoding", "subscript"]
+- ["PSo8NSCoding", "whiteColor"]
+- ["PSo9NSCopying", "blackColor"]
+- !private ["PSo9NSCopying", "contains"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "extent"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "outputImage"]
+- !private ["PSo9NSCopying", "setDefaults"]
+- !private ["PSo9NSCopying", "setFill"]
+- !private ["PSo9NSCopying", "setStroke"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo9NSCopying", "subscript"]
+- ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo16NSMutableCopying", "contains"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "contains"]
+- !private ["CSo8NSObject", "createCGImage"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "drawInRect"]
+- !private ["CSo8NSObject", "extent"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "outputImage"]
+- !private ["CSo8NSObject", "setDefaults"]
+- !private ["CSo8NSObject", "setFill"]
+- !private ["CSo8NSObject", "setStroke"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "size"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "type"]
+- ["CSo8NSObject", "whiteColor"]
+- ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "contains"]
+- !private ["PSo16NSObjectProtocol", "createCGImage"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "drawInRect"]
+- !private ["PSo16NSObjectProtocol", "extent"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "outputImage"]
+- !private ["PSo16NSObjectProtocol", "setDefaults"]
+- !private ["PSo16NSObjectProtocol", "setFill"]
+- !private ["PSo16NSObjectProtocol", "setStroke"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo14NSSecureCoding", "blackColor"]
+- !private ["PSo14NSSecureCoding", "contains"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "drawInRect"]
+- !private ["PSo14NSSecureCoding", "extent"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "outputImage"]
+- !private ["PSo14NSSecureCoding", "setDefaults"]
+- !private ["PSo14NSSecureCoding", "setFill"]
+- !private ["PSo14NSSecureCoding", "setStroke"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["PSo14NSSecureCoding", "size"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "contains"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo8NSString", "length"]
+- !private ["CSo8NSString", "subscript"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "contains"]
+- !private ["PSs16OutputStreamType", "dataUsingEncoding"]
+- !private ["PSs16OutputStreamType", "length"]
+- !private ["PSs16OutputStreamType", "subscript"]
+- ["C5SHPID23RSAbstractCodeGenerator", "AVMetadataMachineReadableCodeObject"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "AVMetadataObjectTypeAztecCode"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "AVMetadataObjectTypeCode128Code"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "AVMetadataObjectTypePDF417Code"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "AVMetadataObjectTypeQRCode"]
+- ["C5SHPID23RSAbstractCodeGenerator", "Bool"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextAddLineToPoint"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextDrawPath"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextFillRect"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextMoveToPoint"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextSetInterpolationQuality"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextSetLineWidth"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGContextSetShouldAntialias"]
+- ["C5SHPID23RSAbstractCodeGenerator", "CGFloat"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGInterpolationQuality"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGPathDrawingMode"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGRectMake"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CGSizeMake"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CIContext"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "CIFilter"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "DIGITS_STRING"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "Int"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "NSUTF8StringEncoding"]
+- ["C5SHPID23RSAbstractCodeGenerator", "String"]
+- ["C5SHPID23RSAbstractCodeGenerator", "UIColor"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIGraphicsBeginImageContext"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIGraphicsEndImageContext"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIGraphicsGetCurrentContext"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["C5SHPID23RSAbstractCodeGenerator", "UIImage"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "UIImageOrientation"]
+- ["C5SHPID23RSAbstractCodeGenerator", "barcode"]
+- ["C5SHPID23RSAbstractCodeGenerator", "completeBarcode"]
+- ["C5SHPID23RSAbstractCodeGenerator", "deinit"]
+- ["C5SHPID23RSAbstractCodeGenerator", "drawCompleteBarcode"]
+- ["C5SHPID23RSAbstractCodeGenerator", "fillColor"]
+- ["C5SHPID23RSAbstractCodeGenerator", "filterName"]
+- ["C5SHPID23RSAbstractCodeGenerator", "generateCode"]
+- ["C5SHPID23RSAbstractCodeGenerator", "init"]
+- ["C5SHPID23RSAbstractCodeGenerator", "initiator"]
+- ["C5SHPID23RSAbstractCodeGenerator", "isValid"]
+- ["C5SHPID23RSAbstractCodeGenerator", "resizeImage"]
+- ["C5SHPID23RSAbstractCodeGenerator", "strokeColor"]
+- ["C5SHPID23RSAbstractCodeGenerator", "terminator"]
+- ["P5SHPID21RSCheckDigitGenerator", "String"]
+- ["P5SHPID21RSCheckDigitGenerator", "checkDigit"]
+- ["P5SHPID15RSCodeGenerator", "AVMetadataMachineReadableCodeObject"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeAztecCode"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeCode128Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypePDF417Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeQRCode"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextAddLineToPoint"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextDrawPath"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextFillRect"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextMoveToPoint"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextSetInterpolationQuality"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextSetLineWidth"]
+- !private ["P5SHPID15RSCodeGenerator", "CGContextSetShouldAntialias"]
+- !private ["P5SHPID15RSCodeGenerator", "CGFloat"]
+- !private ["P5SHPID15RSCodeGenerator", "CGInterpolationQuality"]
+- !private ["P5SHPID15RSCodeGenerator", "CGPathDrawingMode"]
+- !private ["P5SHPID15RSCodeGenerator", "CGRectMake"]
+- !private ["P5SHPID15RSCodeGenerator", "CGSizeMake"]
+- !private ["P5SHPID15RSCodeGenerator", "CIContext"]
+- !private ["P5SHPID15RSCodeGenerator", "CIFilter"]
+- !private ["P5SHPID15RSCodeGenerator", "DIGITS_STRING"]
+- !private ["P5SHPID15RSCodeGenerator", "NSUTF8StringEncoding"]
+- ["P5SHPID15RSCodeGenerator", "String"]
+- ["P5SHPID15RSCodeGenerator", "UIColor"]
+- !private ["P5SHPID15RSCodeGenerator", "UIGraphicsBeginImageContext"]
+- !private ["P5SHPID15RSCodeGenerator", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["P5SHPID15RSCodeGenerator", "UIGraphicsEndImageContext"]
+- !private ["P5SHPID15RSCodeGenerator", "UIGraphicsGetCurrentContext"]
+- !private ["P5SHPID15RSCodeGenerator", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["P5SHPID15RSCodeGenerator", "UIImage"]
+- !private ["P5SHPID15RSCodeGenerator", "UIImageOrientation"]
+- !private ["P5SHPID15RSCodeGenerator", "barcode"]
+- !private ["P5SHPID15RSCodeGenerator", "completeBarcode"]
+- !private ["P5SHPID15RSCodeGenerator", "drawCompleteBarcode"]
+- ["P5SHPID15RSCodeGenerator", "fillColor"]
+- ["P5SHPID15RSCodeGenerator", "generateCode"]
+- !private ["P5SHPID15RSCodeGenerator", "initiator"]
+- !private ["P5SHPID15RSCodeGenerator", "isValid"]
+- ["P5SHPID15RSCodeGenerator", "strokeColor"]
+- !private ["P5SHPID15RSCodeGenerator", "terminator"]
+- ["P5SHPID15RSCodeGenerator", ""]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "_DisabledRangeIndex"]
+- !private ["VSs5Range", "Generator"]
+- !private ["VSs14RangeGenerator", "Element"]
+- !private ["PSs16RawRepresentable", "FillStroke"]
+- !private ["PSs16RawRepresentable", "None"]
+- !private ["PSs16RawRepresentable", "Up"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "_DisabledRangeIndex"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "contains"]
+- !private ["PSs10Streamable", "dataUsingEncoding"]
+- !private ["PSs10Streamable", "length"]
+- !private ["PSs10Streamable", "subscript"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "_DisabledRangeIndex"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "length"]
+- !private ["SS", "subscript"]
+- !private ["PSs30StringInterpolationConvertible", "contains"]
+- !private ["PSs30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["PSs30StringInterpolationConvertible", "length"]
+- !private ["PSs30StringInterpolationConvertible", "subscript"]
+- !private ["PSs24StringLiteralConvertible", "contains"]
+- !private ["PSs24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs24StringLiteralConvertible", "length"]
+- !private ["PSs24StringLiteralConvertible", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "drawInRect"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
+- ["CSo7UIColor", "blackColor"]
+- !private ["CSo7UIColor", "setFill"]
+- !private ["CSo7UIColor", "setStroke"]
+- ["CSo7UIColor", "whiteColor"]
+- !private ["CSo7UIImage", "drawInRect"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "size"]
+- !private ["OSC18UIImageOrientation", "Up"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "contains"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "length"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "contains"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "length"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "subscript"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "contains"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "length"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "subscript"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "contains"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "length"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "subscript"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "contains"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "length"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "subscript"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "contains"]
+- !private ["PSs16_CocoaStringType", "dataUsingEncoding"]
+- !private ["PSs16_CocoaStringType", "length"]
+- !private ["PSs16_CocoaStringType", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "contains"]
+- !private ["PSs21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "length"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_DisabledRangeIndex"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "contains"]
+- !private ["PSs12_Reflectable", "dataUsingEncoding"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "length"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "_DisabledRangeIndex"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "CSo35AVMetadataMachineReadableCodeObject"
+- !private "CSo16AVMetadataObject"
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "OSC22CGInterpolationQuality"
+- !private "OSC17CGPathDrawingMode"
+- !private "VSC6CGSize"
+- !private "CSo9CIContext"
+- !private "CSo8CIFilter"
+- !private "CSo7CIImage"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "VSs16HalfOpenInterval"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- "C5SHPID23RSAbstractCodeGenerator"
+- "P5SHPID21RSCheckDigitGenerator"
+- "P5SHPID15RSCodeGenerator"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "VSs14RangeGenerator"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIColor"
+- !private "CSo7UIImage"
+- !private "OSC18UIImageOrientation"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "5fe996aed2221de61a5d8af4519f0c34"

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="SHPID" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="210"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BZ1-34-yx4">
+                                <rect key="frame" x="16" y="102" width="288" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="hkV-i0-MZu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" placeholderIntrinsicWidth="288" placeholderIntrinsicHeight="24" text="Student Barcode:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjy-7T-i28">
+                                <rect key="frame" x="16" y="20" width="288" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="BZ1-34-yx4" secondAttribute="centerX" id="6Ad-gZ-BKk"/>
+                            <constraint firstItem="yjy-7T-i28" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="M8I-Me-Ohg"/>
+                            <constraint firstItem="yjy-7T-i28" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="20" id="WxE-7F-3um"/>
+                            <constraint firstItem="BZ1-34-yx4" firstAttribute="top" secondItem="yjy-7T-i28" secondAttribute="bottom" constant="8" id="XQp-4p-J4x"/>
+                            <constraint firstItem="BZ1-34-yx4" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="fSY-T6-IbN"/>
+                            <constraint firstItem="yjy-7T-i28" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="pCh-Ei-TYQ"/>
+                            <constraint firstItem="yjy-7T-i28" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="20" id="pTo-8b-IYx"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="BZ1-34-yx4" secondAttribute="bottom" constant="8" id="qRw-bG-jeE"/>
+                            <constraint firstItem="yjy-7T-i28" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="s0c-Lt-ZM9"/>
+                            <constraint firstItem="BZ1-34-yx4" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="xwD-6f-GZg"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="210"/>
+                    <connections>
+                        <outlet property="barcode" destination="BZ1-34-yx4" id="yfk-NV-S1n"/>
+                        <outlet property="label" destination="yjy-7T-i28" id="CXr-1m-3Zh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="536" y="311"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

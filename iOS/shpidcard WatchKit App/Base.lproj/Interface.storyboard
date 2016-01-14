@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="shpidcard_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="SHPID: " numberOfLines="0" id="iA9-OA-2xL">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <imageView width="136" height="127" alignment="left" id="6lM-el-v3B"/>
+                    </items>
+                    <connections>
+                        <outlet property="barcode" destination="6lM-el-v3B" id="P4e-Va-et0"/>
+                        <outlet property="label" destination="iA9-OA-2xL" id="HRc-B2-AeI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="shpidcard_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq">
+                            <items>
+                                <label width="136" height="54" alignment="left" text="SHPID:" numberOfLines="0" id="QuZ-uh-Lt5"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="eew-Gs-W6Y">
+                            <items>
+                                <imageView width="136" height="112" alignment="left" id="ozf-he-Pub"/>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="barcode" destination="ozf-he-Pub" id="NXF-OJ-lZS"/>
+                        <outlet property="label" destination="QuZ-uh-Lt5" id="xSa-L7-ULq"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+    </scenes>
+</document>

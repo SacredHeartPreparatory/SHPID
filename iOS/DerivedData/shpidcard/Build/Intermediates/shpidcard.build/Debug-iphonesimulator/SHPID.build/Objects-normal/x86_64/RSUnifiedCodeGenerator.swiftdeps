@@ -1,0 +1,301 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RSUnifiedCodeGenerator"
+- "UnifiedCodeGeneratorSharedInstance"
+provides-nominal:
+- "C5SHPID22RSUnifiedCodeGenerator"
+provides-member:
+- ["C5SHPID22RSUnifiedCodeGenerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVMetadataObjectTypeInterleaved2of5Code"
+- !private "RSCode39Generator"
+- "UnifiedCodeGeneratorSharedInstance"
+- !private "RSCode93Generator"
+- "String"
+- !private "RSEAN8Generator"
+- !private "!="
+- !private "RSAbstractCodeGenerator"
+- !private "RSExtendedCode39Generator"
+- !private "~="
+- "UIColor"
+- !private "print"
+- !private "AVMetadataObjectTypeCode39Code"
+- !private "AVMetadataObjectTypePDF417Code"
+- !private "RSITF14Generator"
+- !private "AVMetadataObjectTypeCode93Code"
+- !private "AVMetadataObjectTypeEAN8Code"
+- !private "RSEAN13Generator"
+- !private "RSISSN13Generator"
+- !private "RSBarcodesTypeISSN13Code"
+- !private "AVMetadataObjectTypeAztecCode"
+- "BooleanLiteralType"
+- "RSUnifiedCodeGenerator"
+- !private "RSCode128Generator"
+- !private "AVMetadataObjectTypeITF14Code"
+- !private "RSBarcodesTypeISBN13Code"
+- !private "AVMetadataObjectTypeEAN13Code"
+- !private "RSUPCEGenerator"
+- !private "AVMetadataObjectTypeQRCode"
+- !private "RSCode39Mod43Generator"
+- !private "RSITFGenerator"
+- !private "AVMetadataObjectTypeCode128Code"
+- !private "RSISBN13Generator"
+- "RSCodeGenerator"
+- !private "RSBarcodesTypeExtendedCode39Code"
+- "AVMetadataMachineReadableCodeObject"
+- !private "AVMetadataObjectTypeUPCECode"
+- "UIImage"
+- !private "AVMetadataObjectTypeCode39Mod43Code"
+depends-member:
+- !private ["CSo35AVMetadataMachineReadableCodeObject", "stringValue"]
+- !private ["CSo35AVMetadataMachineReadableCodeObject", "type"]
+- !private ["CSo16AVMetadataObject", "stringValue"]
+- !private ["CSo16AVMetadataObject", "type"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeAztecCode"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode128Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode39Mod43Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode93Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeEAN13Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeEAN8Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeITF14Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeInterleaved2of5Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypePDF417Code"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeQRCode"]
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeUPCECode"]
+- !private ["PSs9AnyObject", "RSAbstractCodeGenerator"]
+- !private ["PSs9AnyObject", "RSBarcodesTypeExtendedCode39Code"]
+- !private ["PSs9AnyObject", "RSBarcodesTypeISBN13Code"]
+- !private ["PSs9AnyObject", "RSBarcodesTypeISSN13Code"]
+- !private ["PSs9AnyObject", "RSCode128Generator"]
+- !private ["PSs9AnyObject", "RSCode39Generator"]
+- !private ["PSs9AnyObject", "RSCode39Mod43Generator"]
+- !private ["PSs9AnyObject", "RSCode93Generator"]
+- !private ["PSs9AnyObject", "RSEAN13Generator"]
+- !private ["PSs9AnyObject", "RSEAN8Generator"]
+- !private ["PSs9AnyObject", "RSExtendedCode39Generator"]
+- !private ["PSs9AnyObject", "RSISBN13Generator"]
+- !private ["PSs9AnyObject", "RSISSN13Generator"]
+- !private ["PSs9AnyObject", "RSITF14Generator"]
+- !private ["PSs9AnyObject", "RSITFGenerator"]
+- !private ["PSs9AnyObject", "RSUPCEGenerator"]
+- ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UnifiedCodeGeneratorSharedInstance"]
+- ["PSs9AnyObject", "blackColor"]
+- ["PSs9AnyObject", "fillColor"]
+- !private ["PSs9AnyObject", "filterName"]
+- ["PSs9AnyObject", "generateCode"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isBuiltInCode128GeneratorSelected"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "stringValue"]
+- ["PSs9AnyObject", "strokeColor"]
+- !private ["PSs9AnyObject", "type"]
+- ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["PSs11CVarArgType", "blackColor"]
+- !private ["PSs11CVarArgType", "stringValue"]
+- !private ["PSs11CVarArgType", "type"]
+- ["PSs11CVarArgType", "whiteColor"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "blackColor"]
+- !private ["PSs23CustomStringConvertible", "stringValue"]
+- !private ["PSs23CustomStringConvertible", "type"]
+- ["PSs23CustomStringConvertible", "whiteColor"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "blackColor"]
+- !private ["PSs9Equatable", "stringValue"]
+- !private ["PSs9Equatable", "type"]
+- ["PSs9Equatable", "whiteColor"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "blackColor"]
+- !private ["PSs8Hashable", "stringValue"]
+- !private ["PSs8Hashable", "type"]
+- ["PSs8Hashable", "whiteColor"]
+- ["PSo8NSCoding", "blackColor"]
+- ["PSo8NSCoding", "whiteColor"]
+- ["PSo9NSCopying", "blackColor"]
+- ["PSo9NSCopying", "whiteColor"]
+- ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["CSo8NSObject", "type"]
+- ["CSo8NSObject", "whiteColor"]
+- ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo14NSSecureCoding", "blackColor"]
+- ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["Sq", "deinit"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "filterName"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "generateCode"]
+- !private ["C5SHPID23RSAbstractCodeGenerator", "init"]
+- !private ["P5SHPID21RSCheckDigitGenerator", "init"]
+- !private ["C5SHPID18RSCode128Generator", "deinit"]
+- !private ["C5SHPID18RSCode128Generator", "init"]
+- !private ["C5SHPID17RSCode39Generator", "deinit"]
+- !private ["C5SHPID17RSCode39Generator", "init"]
+- !private ["C5SHPID22RSCode39Mod43Generator", "deinit"]
+- !private ["C5SHPID22RSCode39Mod43Generator", "init"]
+- !private ["C5SHPID17RSCode93Generator", "deinit"]
+- !private ["C5SHPID17RSCode93Generator", "init"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeAztecCode"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeCode128Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeCode39Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeCode39Mod43Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeCode93Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeEAN13Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeEAN8Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeITF14Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeInterleaved2of5Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypePDF417Code"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeQRCode"]
+- !private ["P5SHPID15RSCodeGenerator", "AVMetadataObjectTypeUPCECode"]
+- !private ["P5SHPID15RSCodeGenerator", "RSAbstractCodeGenerator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSBarcodesTypeExtendedCode39Code"]
+- !private ["P5SHPID15RSCodeGenerator", "RSBarcodesTypeISBN13Code"]
+- !private ["P5SHPID15RSCodeGenerator", "RSBarcodesTypeISSN13Code"]
+- !private ["P5SHPID15RSCodeGenerator", "RSCode128Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSCode39Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSCode39Mod43Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSCode93Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSEAN13Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSEAN8Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSExtendedCode39Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSISBN13Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSISSN13Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSITF14Generator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSITFGenerator"]
+- !private ["P5SHPID15RSCodeGenerator", "RSUPCEGenerator"]
+- ["P5SHPID15RSCodeGenerator", "UIColor"]
+- !private ["P5SHPID15RSCodeGenerator", "UnifiedCodeGeneratorSharedInstance"]
+- !private ["P5SHPID15RSCodeGenerator", "deinit"]
+- ["P5SHPID15RSCodeGenerator", "fillColor"]
+- !private ["P5SHPID15RSCodeGenerator", "filterName"]
+- ["P5SHPID15RSCodeGenerator", "generateCode"]
+- ["P5SHPID15RSCodeGenerator", "init"]
+- !private ["P5SHPID15RSCodeGenerator", "isBuiltInCode128GeneratorSelected"]
+- !private ["P5SHPID15RSCodeGenerator", "print"]
+- ["P5SHPID15RSCodeGenerator", "strokeColor"]
+- ["P5SHPID15RSCodeGenerator", ""]
+- !private ["C5SHPID16RSEAN13Generator", "deinit"]
+- !private ["C5SHPID16RSEAN13Generator", "init"]
+- !private ["C5SHPID15RSEAN8Generator", "deinit"]
+- !private ["C5SHPID15RSEAN8Generator", "init"]
+- !private ["C5SHPID25RSExtendedCode39Generator", "deinit"]
+- !private ["C5SHPID25RSExtendedCode39Generator", "init"]
+- !private ["C5SHPID17RSISBN13Generator", "deinit"]
+- !private ["C5SHPID17RSISBN13Generator", "init"]
+- !private ["C5SHPID17RSISSN13Generator", "deinit"]
+- !private ["C5SHPID17RSISSN13Generator", "init"]
+- !private ["C5SHPID16RSITF14Generator", "deinit"]
+- !private ["C5SHPID16RSITF14Generator", "init"]
+- !private ["C5SHPID14RSITFGenerator", "deinit"]
+- !private ["C5SHPID14RSITFGenerator", "init"]
+- !private ["C5SHPID15RSUPCEGenerator", "deinit"]
+- !private ["C5SHPID15RSUPCEGenerator", "init"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataMachineReadableCodeObject"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeAztecCode"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeCode128Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeCode39Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeCode39Mod43Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeCode93Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeEAN13Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeEAN8Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeITF14Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeInterleaved2of5Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypePDF417Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeQRCode"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "AVMetadataObjectTypeUPCECode"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSAbstractCodeGenerator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSBarcodesTypeExtendedCode39Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSBarcodesTypeISBN13Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSBarcodesTypeISSN13Code"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSCode128Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSCode39Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSCode39Mod43Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSCode93Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSCodeGenerator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSEAN13Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSEAN8Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSExtendedCode39Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSISBN13Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSISSN13Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSITF14Generator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSITFGenerator"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "RSUPCEGenerator"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "RSUnifiedCodeGenerator"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "String"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "UIColor"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "UIImage"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "UnifiedCodeGeneratorSharedInstance"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "deinit"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "fillColor"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "generateCode"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "init"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "isBuiltInCode128GeneratorSelected"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "print"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "shared"]
+- ["C5SHPID22RSUnifiedCodeGenerator", "strokeColor"]
+- !private ["SS", "deinit"]
+- ["CSo7UIColor", "blackColor"]
+- ["CSo7UIColor", "whiteColor"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "CSo35AVMetadataMachineReadableCodeObject"
+- !private "CSo16AVMetadataObject"
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "C5SHPID23RSAbstractCodeGenerator"
+- !private "P5SHPID21RSCheckDigitGenerator"
+- !private "C5SHPID18RSCode128Generator"
+- !private "C5SHPID17RSCode39Generator"
+- !private "C5SHPID22RSCode39Mod43Generator"
+- !private "C5SHPID17RSCode93Generator"
+- "P5SHPID15RSCodeGenerator"
+- !private "C5SHPID16RSEAN13Generator"
+- !private "C5SHPID15RSEAN8Generator"
+- !private "C5SHPID25RSExtendedCode39Generator"
+- !private "C5SHPID17RSISBN13Generator"
+- !private "C5SHPID17RSISSN13Generator"
+- !private "C5SHPID16RSITF14Generator"
+- !private "C5SHPID14RSITFGenerator"
+- !private "C5SHPID15RSUPCEGenerator"
+- "C5SHPID22RSUnifiedCodeGenerator"
+- !private "SS"
+- "CSo7UIColor"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "8fdd7a65e03d0a4500720e3a71bb64d7"

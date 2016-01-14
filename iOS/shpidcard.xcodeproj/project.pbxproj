@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A103660C1BCDEDE800A255CC /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103660B1BCDEDE800A255CC /* SupportViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A11F0D751BC5D92A0072F48F /* shpidcard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A125587E1B95223A00B18CD7 /* shpidcard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A11F0D781BC5D92A0072F48F /* shpidcard WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A125588A1B95223A00B18CD7 /* shpidcard WatchKit App.app */; };
+		A12288061BCC9EC700F55749 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12288051BCC9EC700F55749 /* WatchSessionManager.swift */; settings = {ASSET_TAGS = (); }; };
+		A12558581B95220000B18CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558571B95220000B18CD7 /* AppDelegate.swift */; };
+		A125585B1B95220000B18CD7 /* shpidcard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A12558591B95220000B18CD7 /* shpidcard.xcdatamodeld */; };
+		A12558601B95220000B18CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A125585E1B95220000B18CD7 /* Main.storyboard */; };
+		A12558621B95220000B18CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12558611B95220000B18CD7 /* Images.xcassets */; };
+		A12558651B95220000B18CD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12558631B95220000B18CD7 /* LaunchScreen.xib */; };
+		A12558831B95223A00B18CD7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558821B95223A00B18CD7 /* InterfaceController.swift */; };
+		A12558851B95223A00B18CD7 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558841B95223A00B18CD7 /* GlanceController.swift */; };
+		A12558871B95223A00B18CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12558861B95223A00B18CD7 /* Images.xcassets */; };
+		A12558931B95223A00B18CD7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12558911B95223A00B18CD7 /* Interface.storyboard */; };
+		A12558951B95223A00B18CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12558941B95223A00B18CD7 /* Images.xcassets */; };
+		A12558A51B95228C00B18CD7 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558A01B95228C00B18CD7 /* RequestViewController.swift */; };
+		A12558A61B95228C00B18CD7 /* IDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558A11B95228C00B18CD7 /* IDViewController.swift */; };
+		A12558A71B95228C00B18CD7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558A21B95228C00B18CD7 /* Reachability.swift */; };
+		A12558A81B95228C00B18CD7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12558A31B95228C00B18CD7 /* SettingsViewController.swift */; };
+		A12B61781BC6063B009BDD62 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770521BC5DF69000ACE4F /* RSCode128Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61791BC6063B009BDD62 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770531BC5DF69000ACE4F /* RSCode39Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617A1BC6063B009BDD62 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770541BC5DF69000ACE4F /* RSCode39Mod43Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617B1BC6063B009BDD62 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770551BC5DF69000ACE4F /* RSCode93Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617C1BC6063B009BDD62 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770561BC5DF69000ACE4F /* RSCodeGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617D1BC6063B009BDD62 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770571BC5DF69000ACE4F /* RSCodeLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617E1BC6063B009BDD62 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770581BC5DF69000ACE4F /* RSCodeReaderViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B617F1BC6063B009BDD62 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770591BC5DF69000ACE4F /* RSCornersLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61801BC6063B009BDD62 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705A1BC5DF69000ACE4F /* RSEANGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61811BC6063B009BDD62 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705B1BC5DF69000ACE4F /* RSExtendedCode39Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61821BC6063B009BDD62 /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705C1BC5DF69000ACE4F /* RSFocusMarkLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61831BC6063B009BDD62 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705D1BC5DF69000ACE4F /* RSITF14Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61841BC6063B009BDD62 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705E1BC5DF69000ACE4F /* RSITFGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61851BC6063B009BDD62 /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705F1BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61861BC6063B009BDD62 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770601BC5DF69000ACE4F /* RSUPCEGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61871BC6063B009BDD62 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770611BC5DF69000ACE4F /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B61881BC6063B009BDD62 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770621BC5DF69000ACE4F /* UIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		A12B618A1BC60A7E009BDD62 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12B61891BC60A7E009BDD62 /* NotificationCenter.framework */; };
+		A12B619F1BC62480009BDD62 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12B619E1BC62480009BDD62 /* WatchKit.framework */; };
+		A15FB8831BCAE33900DDFFCD /* MyURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15FB8821BCAE33900DDFFCD /* MyURLProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C0DF8E1B954E6E008B6F0C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0DF8D1B954E6E008B6F0C /* TodayViewController.swift */; };
+		A1C0DF901B954E6E008B6F0C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C0DF8F1B954E6E008B6F0C /* MainInterface.storyboard */; };
+		A1C0DF931B954E6E008B6F0C /* SHPID.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1C0DF861B954E6E008B6F0C /* SHPID.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1C770631BC5DF69000ACE4F /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770521BC5DF69000ACE4F /* RSCode128Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770671BC5DF69000ACE4F /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770531BC5DF69000ACE4F /* RSCode39Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7706B1BC5DF69000ACE4F /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770541BC5DF69000ACE4F /* RSCode39Mod43Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7706F1BC5DF69000ACE4F /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770551BC5DF69000ACE4F /* RSCode93Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770731BC5DF69000ACE4F /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770561BC5DF69000ACE4F /* RSCodeGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770771BC5DF69000ACE4F /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770571BC5DF69000ACE4F /* RSCodeLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7707B1BC5DF69000ACE4F /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770581BC5DF69000ACE4F /* RSCodeReaderViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7707F1BC5DF69000ACE4F /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770591BC5DF69000ACE4F /* RSCornersLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770831BC5DF69000ACE4F /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705A1BC5DF69000ACE4F /* RSEANGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770871BC5DF69000ACE4F /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705B1BC5DF69000ACE4F /* RSExtendedCode39Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7708B1BC5DF69000ACE4F /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705C1BC5DF69000ACE4F /* RSFocusMarkLayer.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7708F1BC5DF69000ACE4F /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705D1BC5DF69000ACE4F /* RSITF14Generator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770931BC5DF69000ACE4F /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705E1BC5DF69000ACE4F /* RSITFGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770971BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7705F1BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7709B1BC5DF69000ACE4F /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770601BC5DF69000ACE4F /* RSUPCEGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C7709F1BC5DF69000ACE4F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770611BC5DF69000ACE4F /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770A31BC5DF69000ACE4F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C770621BC5DF69000ACE4F /* UIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		A1C770AE1BC5E13D000ACE4F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C770AD1BC5E13D000ACE4F /* AVFoundation.framework */; };
+		A1C770B01BC5E141000ACE4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C770AF1BC5E141000ACE4F /* QuartzCore.framework */; };
+		A1C770B51BC5E148000ACE4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C770AF1BC5E141000ACE4F /* QuartzCore.framework */; settings = {ASSET_TAGS = (); }; };
+		A1C770B61BC5E148000ACE4F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C770AD1BC5E13D000ACE4F /* AVFoundation.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11F0D731BC5D92A0072F48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A125584A1B95220000B18CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A125587D1B95223A00B18CD7;
+			remoteInfo = "shpidcard WatchKit Extension";
+		};
+		A11F0D761BC5D92A0072F48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A125584A1B95220000B18CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12558891B95223A00B18CD7;
+			remoteInfo = "shpidcard WatchKit App";
+		};
+		A1C0DF911B954E6E008B6F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A125584A1B95220000B18CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C0DF851B954E6E008B6F0C;
+			remoteInfo = SHPID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A11F0D791BC5D92A0072F48F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A11F0D751BC5D92A0072F48F /* shpidcard WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11F0D7A1BC5D92A0072F48F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A11F0D781BC5D92A0072F48F /* shpidcard WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A125589F1B95223A00B18CD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1C0DF931B954E6E008B6F0C /* SHPID.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A103660B1BCDEDE800A255CC /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		A12288051BCC9EC700F55749 /* WatchSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		A12558521B95220000B18CD7 /* shpidcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shpidcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12558561B95220000B18CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12558571B95220000B18CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A125585A1B95220000B18CD7 /* shpidcard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shpidcard.xcdatamodel; sourceTree = "<group>"; };
+		A125585F1B95220000B18CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12558611B95220000B18CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A12558641B95220000B18CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A125586F1B95220000B18CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12558701B95220000B18CD7 /* shpidcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shpidcardTests.swift; sourceTree = "<group>"; };
+		A125587E1B95223A00B18CD7 /* shpidcard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "shpidcard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12558811B95223A00B18CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12558821B95223A00B18CD7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A12558841B95223A00B18CD7 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		A12558861B95223A00B18CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../shpidcard WatchKit Extension/Images.xcassets"; sourceTree = "<group>"; };
+		A125588A1B95223A00B18CD7 /* shpidcard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shpidcard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12558901B95223A00B18CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12558921B95223A00B18CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A12558941B95223A00B18CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A12558A01B95228C00B18CD7 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		A12558A11B95228C00B18CD7 /* IDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDViewController.swift; sourceTree = "<group>"; };
+		A12558A21B95228C00B18CD7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A12558A31B95228C00B18CD7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A12558DF1B95338100B18CD7 /* shpidcard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = shpidcard.entitlements; sourceTree = "<group>"; };
+		A12B61891BC60A7E009BDD62 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A12B619E1BC62480009BDD62 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		A15FB8821BCAE33900DDFFCD /* MyURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyURLProtocol.swift; sourceTree = "<group>"; };
+		A1C0DF861B954E6E008B6F0C /* SHPID.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SHPID.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C0DF8C1B954E6E008B6F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C0DF8D1B954E6E008B6F0C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A1C0DF8F1B954E6E008B6F0C /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		A1C0DFA81B9550E6008B6F0C /* SHPID.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SHPID.entitlements; sourceTree = "<group>"; };
+		A1C770521BC5DF69000ACE4F /* RSCode128Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode128Generator.swift; sourceTree = "<group>"; };
+		A1C770531BC5DF69000ACE4F /* RSCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Generator.swift; sourceTree = "<group>"; };
+		A1C770541BC5DF69000ACE4F /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
+		A1C770551BC5DF69000ACE4F /* RSCode93Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode93Generator.swift; sourceTree = "<group>"; };
+		A1C770561BC5DF69000ACE4F /* RSCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeGenerator.swift; sourceTree = "<group>"; };
+		A1C770571BC5DF69000ACE4F /* RSCodeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeLayer.swift; sourceTree = "<group>"; };
+		A1C770581BC5DF69000ACE4F /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeReaderViewController.swift; sourceTree = "<group>"; };
+		A1C770591BC5DF69000ACE4F /* RSCornersLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCornersLayer.swift; sourceTree = "<group>"; };
+		A1C7705A1BC5DF69000ACE4F /* RSEANGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSEANGenerator.swift; sourceTree = "<group>"; };
+		A1C7705B1BC5DF69000ACE4F /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
+		A1C7705C1BC5DF69000ACE4F /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		A1C7705D1BC5DF69000ACE4F /* RSITF14Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSITF14Generator.swift; sourceTree = "<group>"; };
+		A1C7705E1BC5DF69000ACE4F /* RSITFGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSITFGenerator.swift; sourceTree = "<group>"; };
+		A1C7705F1BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		A1C770601BC5DF69000ACE4F /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUPCEGenerator.swift; sourceTree = "<group>"; };
+		A1C770611BC5DF69000ACE4F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A1C770621BC5DF69000ACE4F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A1C770AD1BC5E13D000ACE4F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A1C770AF1BC5E141000ACE4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A125584F1B95220000B18CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C770B01BC5E141000ACE4F /* QuartzCore.framework in Frameworks */,
+				A1C770AE1BC5E13D000ACE4F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A125587B1B95223A00B18CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12B619F1BC62480009BDD62 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0DF831B954E6E008B6F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12B618A1BC60A7E009BDD62 /* NotificationCenter.framework in Frameworks */,
+				A1C770B61BC5E148000ACE4F /* AVFoundation.framework in Frameworks */,
+				A1C770B51BC5E148000ACE4F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12558491B95220000B18CD7 = {
+			isa = PBXGroup;
+			children = (
+				A12B619E1BC62480009BDD62 /* WatchKit.framework */,
+				A12B61891BC60A7E009BDD62 /* NotificationCenter.framework */,
+				A1C770AF1BC5E141000ACE4F /* QuartzCore.framework */,
+				A1C770AD1BC5E13D000ACE4F /* AVFoundation.framework */,
+				A12558541B95220000B18CD7 /* shpidcard */,
+				A125586D1B95220000B18CD7 /* shpidcardTests */,
+				A125587F1B95223A00B18CD7 /* shpidcard WatchKit Extension */,
+				A125588E1B95223A00B18CD7 /* shpidcard WatchKit App */,
+				A1C0DF8A1B954E6E008B6F0C /* SHPID */,
+				A12558531B95220000B18CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12558531B95220000B18CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12558521B95220000B18CD7 /* shpidcard.app */,
+				A125587E1B95223A00B18CD7 /* shpidcard WatchKit Extension.appex */,
+				A125588A1B95223A00B18CD7 /* shpidcard WatchKit App.app */,
+				A1C0DF861B954E6E008B6F0C /* SHPID.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12558541B95220000B18CD7 /* shpidcard */ = {
+			isa = PBXGroup;
+			children = (
+				A12558DF1B95338100B18CD7 /* shpidcard.entitlements */,
+				A125585E1B95220000B18CD7 /* Main.storyboard */,
+				A1C770511BC5DF69000ACE4F /* RSBarcodes */,
+				A12558AA1B9522CA00B18CD7 /* ViewControllers */,
+				A12558551B95220000B18CD7 /* Supporting Files */,
+			);
+			path = shpidcard;
+			sourceTree = "<group>";
+		};
+		A12558551B95220000B18CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12558631B95220000B18CD7 /* LaunchScreen.xib */,
+				A12558591B95220000B18CD7 /* shpidcard.xcdatamodeld */,
+				A12558611B95220000B18CD7 /* Images.xcassets */,
+				A12558571B95220000B18CD7 /* AppDelegate.swift */,
+				A12558561B95220000B18CD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A125586D1B95220000B18CD7 /* shpidcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12558701B95220000B18CD7 /* shpidcardTests.swift */,
+				A125586E1B95220000B18CD7 /* Supporting Files */,
+			);
+			path = shpidcardTests;
+			sourceTree = "<group>";
+		};
+		A125586E1B95220000B18CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A125586F1B95220000B18CD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A125587F1B95223A00B18CD7 /* shpidcard WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A12558821B95223A00B18CD7 /* InterfaceController.swift */,
+				A12558841B95223A00B18CD7 /* GlanceController.swift */,
+				A12288051BCC9EC700F55749 /* WatchSessionManager.swift */,
+				A12558801B95223A00B18CD7 /* Supporting Files */,
+			);
+			path = "shpidcard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A12558801B95223A00B18CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12558811B95223A00B18CD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A125588E1B95223A00B18CD7 /* shpidcard WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A12558911B95223A00B18CD7 /* Interface.storyboard */,
+				A12558941B95223A00B18CD7 /* Images.xcassets */,
+				A125588F1B95223A00B18CD7 /* Supporting Files */,
+			);
+			path = "shpidcard WatchKit App";
+			sourceTree = "<group>";
+		};
+		A125588F1B95223A00B18CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12558901B95223A00B18CD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12558AA1B9522CA00B18CD7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A12558A01B95228C00B18CD7 /* RequestViewController.swift */,
+				A103660B1BCDEDE800A255CC /* SupportViewController.swift */,
+				A12558A31B95228C00B18CD7 /* SettingsViewController.swift */,
+				A12558A21B95228C00B18CD7 /* Reachability.swift */,
+				A12558A11B95228C00B18CD7 /* IDViewController.swift */,
+				A15FB8821BCAE33900DDFFCD /* MyURLProtocol.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A1C0DF8A1B954E6E008B6F0C /* SHPID */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0DFA81B9550E6008B6F0C /* SHPID.entitlements */,
+				A1C0DF8D1B954E6E008B6F0C /* TodayViewController.swift */,
+				A12558861B95223A00B18CD7 /* Images.xcassets */,
+				A1C0DF8F1B954E6E008B6F0C /* MainInterface.storyboard */,
+				A1C0DF8B1B954E6E008B6F0C /* Supporting Files */,
+			);
+			path = SHPID;
+			sourceTree = "<group>";
+		};
+		A1C0DF8B1B954E6E008B6F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0DF8C1B954E6E008B6F0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C770511BC5DF69000ACE4F /* RSBarcodes */ = {
+			isa = PBXGroup;
+			children = (
+				A1C770521BC5DF69000ACE4F /* RSCode128Generator.swift */,
+				A1C770531BC5DF69000ACE4F /* RSCode39Generator.swift */,
+				A1C770541BC5DF69000ACE4F /* RSCode39Mod43Generator.swift */,
+				A1C770551BC5DF69000ACE4F /* RSCode93Generator.swift */,
+				A1C770561BC5DF69000ACE4F /* RSCodeGenerator.swift */,
+				A1C770571BC5DF69000ACE4F /* RSCodeLayer.swift */,
+				A1C770581BC5DF69000ACE4F /* RSCodeReaderViewController.swift */,
+				A1C770591BC5DF69000ACE4F /* RSCornersLayer.swift */,
+				A1C7705A1BC5DF69000ACE4F /* RSEANGenerator.swift */,
+				A1C7705B1BC5DF69000ACE4F /* RSExtendedCode39Generator.swift */,
+				A1C7705C1BC5DF69000ACE4F /* RSFocusMarkLayer.swift */,
+				A1C7705D1BC5DF69000ACE4F /* RSITF14Generator.swift */,
+				A1C7705E1BC5DF69000ACE4F /* RSITFGenerator.swift */,
+				A1C7705F1BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift */,
+				A1C770601BC5DF69000ACE4F /* RSUPCEGenerator.swift */,
+				A1C770611BC5DF69000ACE4F /* StringExtension.swift */,
+				A1C770621BC5DF69000ACE4F /* UIColorExtension.swift */,
+			);
+			path = RSBarcodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12558511B95220000B18CD7 /* shpidcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12558741B95220000B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard" */;
+			buildPhases = (
+				A125584E1B95220000B18CD7 /* Sources */,
+				A125584F1B95220000B18CD7 /* Frameworks */,
+				A12558501B95220000B18CD7 /* Resources */,
+				A125589F1B95223A00B18CD7 /* Embed App Extensions */,
+				A11F0D7A1BC5D92A0072F48F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C0DF921B954E6E008B6F0C /* PBXTargetDependency */,
+				A11F0D771BC5D92A0072F48F /* PBXTargetDependency */,
+			);
+			name = shpidcard;
+			productName = shpidcard;
+			productReference = A12558521B95220000B18CD7 /* shpidcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A125587D1B95223A00B18CD7 /* shpidcard WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A125589C1B95223A00B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard WatchKit Extension" */;
+			buildPhases = (
+				A125587A1B95223A00B18CD7 /* Sources */,
+				A125587B1B95223A00B18CD7 /* Frameworks */,
+				A125587C1B95223A00B18CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shpidcard WatchKit Extension";
+			productName = "shpidcard WatchKit Extension";
+			productReference = A125587E1B95223A00B18CD7 /* shpidcard WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A12558891B95223A00B18CD7 /* shpidcard WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12558991B95223A00B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard WatchKit App" */;
+			buildPhases = (
+				A12558881B95223A00B18CD7 /* Resources */,
+				A11F0D791BC5D92A0072F48F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11F0D741BC5D92A0072F48F /* PBXTargetDependency */,
+			);
+			name = "shpidcard WatchKit App";
+			productName = "shpidcard WatchKit App";
+			productReference = A125588A1B95223A00B18CD7 /* shpidcard WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A1C0DF851B954E6E008B6F0C /* SHPID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C0DF941B954E6E008B6F0C /* Build configuration list for PBXNativeTarget "SHPID" */;
+			buildPhases = (
+				A1C0DF821B954E6E008B6F0C /* Sources */,
+				A1C0DF831B954E6E008B6F0C /* Frameworks */,
+				A1C0DF841B954E6E008B6F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHPID;
+			productName = SHPID;
+			productReference = A1C0DF861B954E6E008B6F0C /* SHPID.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A125584A1B95220000B18CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dylan Modesitt";
+				TargetAttributes = {
+					A12558511B95220000B18CD7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZVKM27U5E4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A125587D1B95223A00B18CD7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZVKM27U5E4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					A12558891B95223A00B18CD7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZVKM27U5E4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A1C0DF851B954E6E008B6F0C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZVKM27U5E4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A125584D1B95220000B18CD7 /* Build configuration list for PBXProject "shpidcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12558491B95220000B18CD7;
+			productRefGroup = A12558531B95220000B18CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12558511B95220000B18CD7 /* shpidcard */,
+				A125587D1B95223A00B18CD7 /* shpidcard WatchKit Extension */,
+				A12558891B95223A00B18CD7 /* shpidcard WatchKit App */,
+				A1C0DF851B954E6E008B6F0C /* SHPID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12558501B95220000B18CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12558601B95220000B18CD7 /* Main.storyboard in Resources */,
+				A12558651B95220000B18CD7 /* LaunchScreen.xib in Resources */,
+				A12558621B95220000B18CD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A125587C1B95223A00B18CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12558871B95223A00B18CD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12558881B95223A00B18CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12558931B95223A00B18CD7 /* Interface.storyboard in Resources */,
+				A12558951B95223A00B18CD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0DF841B954E6E008B6F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C0DF901B954E6E008B6F0C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A125584E1B95220000B18CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C770671BC5DF69000ACE4F /* RSCode39Generator.swift in Sources */,
+				A103660C1BCDEDE800A255CC /* SupportViewController.swift in Sources */,
+				A125585B1B95220000B18CD7 /* shpidcard.xcdatamodeld in Sources */,
+				A12558A61B95228C00B18CD7 /* IDViewController.swift in Sources */,
+				A1C7706B1BC5DF69000ACE4F /* RSCode39Mod43Generator.swift in Sources */,
+				A1C7707B1BC5DF69000ACE4F /* RSCodeReaderViewController.swift in Sources */,
+				A1C7708F1BC5DF69000ACE4F /* RSITF14Generator.swift in Sources */,
+				A1C770931BC5DF69000ACE4F /* RSITFGenerator.swift in Sources */,
+				A1C7709B1BC5DF69000ACE4F /* RSUPCEGenerator.swift in Sources */,
+				A1C7706F1BC5DF69000ACE4F /* RSCode93Generator.swift in Sources */,
+				A1C7707F1BC5DF69000ACE4F /* RSCornersLayer.swift in Sources */,
+				A1C770771BC5DF69000ACE4F /* RSCodeLayer.swift in Sources */,
+				A15FB8831BCAE33900DDFFCD /* MyURLProtocol.swift in Sources */,
+				A1C770A31BC5DF69000ACE4F /* UIColorExtension.swift in Sources */,
+				A1C770871BC5DF69000ACE4F /* RSExtendedCode39Generator.swift in Sources */,
+				A1C770971BC5DF69000ACE4F /* RSUnifiedCodeGenerator.swift in Sources */,
+				A12558581B95220000B18CD7 /* AppDelegate.swift in Sources */,
+				A12558A71B95228C00B18CD7 /* Reachability.swift in Sources */,
+				A1C770631BC5DF69000ACE4F /* RSCode128Generator.swift in Sources */,
+				A12558A51B95228C00B18CD7 /* RequestViewController.swift in Sources */,
+				A1C7708B1BC5DF69000ACE4F /* RSFocusMarkLayer.swift in Sources */,
+				A12558A81B95228C00B18CD7 /* SettingsViewController.swift in Sources */,
+				A1C770731BC5DF69000ACE4F /* RSCodeGenerator.swift in Sources */,
+				A1C7709F1BC5DF69000ACE4F /* StringExtension.swift in Sources */,
+				A1C770831BC5DF69000ACE4F /* RSEANGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A125587A1B95223A00B18CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12288061BCC9EC700F55749 /* WatchSessionManager.swift in Sources */,
+				A12558831B95223A00B18CD7 /* InterfaceController.swift in Sources */,
+				A12558851B95223A00B18CD7 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0DF821B954E6E008B6F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12B617B1BC6063B009BDD62 /* RSCode93Generator.swift in Sources */,
+				A12B61811BC6063B009BDD62 /* RSExtendedCode39Generator.swift in Sources */,
+				A12B61851BC6063B009BDD62 /* RSUnifiedCodeGenerator.swift in Sources */,
+				A12B61821BC6063B009BDD62 /* RSFocusMarkLayer.swift in Sources */,
+				A12B61791BC6063B009BDD62 /* RSCode39Generator.swift in Sources */,
+				A12B61881BC6063B009BDD62 /* UIColorExtension.swift in Sources */,
+				A12B61841BC6063B009BDD62 /* RSITFGenerator.swift in Sources */,
+				A12B617E1BC6063B009BDD62 /* RSCodeReaderViewController.swift in Sources */,
+				A12B617F1BC6063B009BDD62 /* RSCornersLayer.swift in Sources */,
+				A12B61871BC6063B009BDD62 /* StringExtension.swift in Sources */,
+				A12B617A1BC6063B009BDD62 /* RSCode39Mod43Generator.swift in Sources */,
+				A12B61861BC6063B009BDD62 /* RSUPCEGenerator.swift in Sources */,
+				A1C0DF8E1B954E6E008B6F0C /* TodayViewController.swift in Sources */,
+				A12B61781BC6063B009BDD62 /* RSCode128Generator.swift in Sources */,
+				A12B61801BC6063B009BDD62 /* RSEANGenerator.swift in Sources */,
+				A12B617D1BC6063B009BDD62 /* RSCodeLayer.swift in Sources */,
+				A12B617C1BC6063B009BDD62 /* RSCodeGenerator.swift in Sources */,
+				A12B61831BC6063B009BDD62 /* RSITF14Generator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11F0D741BC5D92A0072F48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A125587D1B95223A00B18CD7 /* shpidcard WatchKit Extension */;
+			targetProxy = A11F0D731BC5D92A0072F48F /* PBXContainerItemProxy */;
+		};
+		A11F0D771BC5D92A0072F48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12558891B95223A00B18CD7 /* shpidcard WatchKit App */;
+			targetProxy = A11F0D761BC5D92A0072F48F /* PBXContainerItemProxy */;
+		};
+		A1C0DF921B954E6E008B6F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C0DF851B954E6E008B6F0C /* SHPID */;
+			targetProxy = A1C0DF911B954E6E008B6F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A125585E1B95220000B18CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A125585F1B95220000B18CD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12558631B95220000B18CD7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12558641B95220000B18CD7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A12558911B95223A00B18CD7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12558921B95223A00B18CD7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12558721B95220000B18CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TARGET_IS_EXTENSION;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12558731B95220000B18CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = TARGET_IS_EXTENSION;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12558751B95220000B18CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = shpidcard/shpidcard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = shpidcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A12558761B95220000B18CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = shpidcard/shpidcard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = shpidcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A125589A1B95223A00B18CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = shpidcard_WatchKit_Extension;
+				INFOPLIST_FILE = "shpidcard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionswatchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A125589B1B95223A00B18CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = shpidcard_WatchKit_Extension;
+				INFOPLIST_FILE = "shpidcard WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionswatchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A125589D1B95223A00B18CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "shpidcard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionswatchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A125589E1B95223A00B18CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "shpidcard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionswatchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A1C0DF951B954E6E008B6F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SHPID/SHPID.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SHPID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionsSHPID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1C0DF961B954E6E008B6F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SHPID/SHPID.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SHPID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.shschools.shpidcard.extentionsSHPID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A125584D1B95220000B18CD7 /* Build configuration list for PBXProject "shpidcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12558721B95220000B18CD7 /* Debug */,
+				A12558731B95220000B18CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12558741B95220000B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12558751B95220000B18CD7 /* Debug */,
+				A12558761B95220000B18CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12558991B95223A00B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A125589A1B95223A00B18CD7 /* Debug */,
+				A125589B1B95223A00B18CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A125589C1B95223A00B18CD7 /* Build configuration list for PBXNativeTarget "shpidcard WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A125589D1B95223A00B18CD7 /* Debug */,
+				A125589E1B95223A00B18CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C0DF941B954E6E008B6F0C /* Build configuration list for PBXNativeTarget "SHPID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C0DF951B954E6E008B6F0C /* Debug */,
+				A1C0DF961B954E6E008B6F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A12558591B95220000B18CD7 /* shpidcard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A125585A1B95220000B18CD7 /* shpidcard.xcdatamodel */,
+			);
+			currentVersion = A125585A1B95220000B18CD7 /* shpidcard.xcdatamodel */;
+			path = shpidcard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A125584A1B95220000B18CD7 /* Project object */;
+}

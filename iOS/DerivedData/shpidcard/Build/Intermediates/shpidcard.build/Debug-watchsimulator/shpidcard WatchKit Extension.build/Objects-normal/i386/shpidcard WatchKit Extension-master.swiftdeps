@@ -1,0 +1,23 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "0a87d6d43ade9fb8fdd56955323c3907"
+build_time: [497574336, 662109000]
+inputs: 
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCode128Generator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSFocusMarkLayer.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/StringExtension.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard WatchKit Extension/InterfaceController.swift": !dirty [497573362, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/UIColorExtension.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCodeReaderViewController.swift": !dirty [497573687, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSITF14Generator.swift": !dirty [490328766, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCode93Generator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCode39Generator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCodeLayer.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSEANGenerator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCornersLayer.swift": !dirty [497573577, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCodeGenerator.swift": !dirty [497573614, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSUPCEGenerator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard WatchKit Extension/GlanceController.swift": !dirty [497573362, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSUnifiedCodeGenerator.swift": !dirty [497574190, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSITFGenerator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSCode39Mod43Generator.swift": !dirty [497573361, 0]
+	"/Users/DylanModesitt/Developer/iOS Dev/Apps/shpidcard/shpidcard/RSExtendedCode39Generator.swift": !dirty [497573361, 0]

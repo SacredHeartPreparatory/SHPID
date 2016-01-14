@@ -1,0 +1,562 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TodayViewController"
+provides-nominal:
+- "C5SHPID19TodayViewController"
+provides-member:
+- ["C5SHPID19TodayViewController", ""]
+provides-dynamic-lookup:
+- "label"
+- "defaultsShared"
+- "widgetMarginInsetsForProposedMarginInsets"
+- "didReceiveMemoryWarning"
+- "widgetPerformUpdateWithCompletionHandler"
+- "barcode"
+- "defaults"
+- "viewDidLoad"
+depends-top-level:
+- "UIEdgeInsets"
+- "TodayViewController"
+- !private "RSUnifiedCodeGenerator"
+- "NSUserDefaults"
+- "StringLiteralType"
+- "NCWidgetProviding"
+- "NCUpdateResult"
+- "UIViewController"
+- !private "UIEdgeInsetsZero"
+- "Void"
+- !private "String"
+- !private "AVMetadataObjectTypeCode39Code"
+- !private "CGSizeMake"
+- "UIImageView"
+- !private "BooleanLiteralType"
+- "UILabel"
+depends-member:
+- !private ["PSs9AnyObject", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs9AnyObject", "CGSizeMake"]
+- !private ["PSs9AnyObject", "NCUpdateResult"]
+- ["PSs9AnyObject", "NSUserDefaults"]
+- !private ["PSs9AnyObject", "RSUnifiedCodeGenerator"]
+- !private ["PSs9AnyObject", "UIEdgeInsetsZero"]
+- ["PSs9AnyObject", "barcode"]
+- ["PSs9AnyObject", "defaults"]
+- ["PSs9AnyObject", "defaultsShared"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "generateCode"]
+- !private ["PSs9AnyObject", "hidden"]
+- !private ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "label"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "preferredContentSize"]
+- !private ["PSs9AnyObject", "removeFromSuperview"]
+- !private ["PSs9AnyObject", "shared"]
+- ["PSs9AnyObject", "standardUserDefaults"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSs9AnyObject", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs11CVarArgType", "CGSizeMake"]
+- !private ["PSs11CVarArgType", "NCUpdateResult"]
+- ["PSs11CVarArgType", "NSUserDefaults"]
+- !private ["PSs11CVarArgType", "RSUnifiedCodeGenerator"]
+- !private ["PSs11CVarArgType", "UIEdgeInsetsZero"]
+- ["PSs11CVarArgType", "barcode"]
+- ["PSs11CVarArgType", "defaults"]
+- ["PSs11CVarArgType", "defaultsShared"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "hidden"]
+- !private ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "label"]
+- !private ["PSs11CVarArgType", "objectForKey"]
+- !private ["PSs11CVarArgType", "preferredContentSize"]
+- !private ["PSs11CVarArgType", "removeFromSuperview"]
+- ["PSs11CVarArgType", "standardUserDefaults"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSs11CVarArgType", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs23CustomStringConvertible", "CGSizeMake"]
+- !private ["PSs23CustomStringConvertible", "NCUpdateResult"]
+- ["PSs23CustomStringConvertible", "NSUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "RSUnifiedCodeGenerator"]
+- !private ["PSs23CustomStringConvertible", "UIEdgeInsetsZero"]
+- ["PSs23CustomStringConvertible", "barcode"]
+- ["PSs23CustomStringConvertible", "defaults"]
+- ["PSs23CustomStringConvertible", "defaultsShared"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- !private ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "label"]
+- !private ["PSs23CustomStringConvertible", "objectForKey"]
+- !private ["PSs23CustomStringConvertible", "preferredContentSize"]
+- !private ["PSs23CustomStringConvertible", "removeFromSuperview"]
+- ["PSs23CustomStringConvertible", "standardUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSs23CustomStringConvertible", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs9Equatable", "CGSizeMake"]
+- !private ["PSs9Equatable", "NCUpdateResult"]
+- ["PSs9Equatable", "NSUserDefaults"]
+- !private ["PSs9Equatable", "NewData"]
+- !private ["PSs9Equatable", "RSUnifiedCodeGenerator"]
+- !private ["PSs9Equatable", "UIEdgeInsetsZero"]
+- ["PSs9Equatable", "barcode"]
+- ["PSs9Equatable", "defaults"]
+- ["PSs9Equatable", "defaultsShared"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "hidden"]
+- !private ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "label"]
+- !private ["PSs9Equatable", "objectForKey"]
+- !private ["PSs9Equatable", "preferredContentSize"]
+- !private ["PSs9Equatable", "removeFromSuperview"]
+- ["PSs9Equatable", "standardUserDefaults"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSs9Equatable", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSs8Hashable", "CGSizeMake"]
+- !private ["PSs8Hashable", "NCUpdateResult"]
+- ["PSs8Hashable", "NSUserDefaults"]
+- !private ["PSs8Hashable", "NewData"]
+- !private ["PSs8Hashable", "RSUnifiedCodeGenerator"]
+- !private ["PSs8Hashable", "UIEdgeInsetsZero"]
+- ["PSs8Hashable", "barcode"]
+- ["PSs8Hashable", "defaults"]
+- ["PSs8Hashable", "defaultsShared"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "hidden"]
+- !private ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "label"]
+- !private ["PSs8Hashable", "objectForKey"]
+- !private ["PSs8Hashable", "preferredContentSize"]
+- !private ["PSs8Hashable", "removeFromSuperview"]
+- ["PSs8Hashable", "standardUserDefaults"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSs8Hashable", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["OSC14NCUpdateResult", "NewData"]
+- !private ["PSo17NCWidgetProviding", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo17NCWidgetProviding", "CGSizeMake"]
+- !private ["PSo17NCWidgetProviding", "NCUpdateResult"]
+- ["PSo17NCWidgetProviding", "NSUserDefaults"]
+- !private ["PSo17NCWidgetProviding", "RSUnifiedCodeGenerator"]
+- !private ["PSo17NCWidgetProviding", "UIEdgeInsetsZero"]
+- !private ["PSo17NCWidgetProviding", "barcode"]
+- !private ["PSo17NCWidgetProviding", "defaultsShared"]
+- !private ["PSo17NCWidgetProviding", "label"]
+- !private ["PSo17NCWidgetProviding", "preferredContentSize"]
+- ["PSo17NCWidgetProviding", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo17NCWidgetProviding", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo17NCWidgetProviding", ""]
+- !private ["PSo8NSCoding", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo8NSCoding", "CGSizeMake"]
+- !private ["PSo8NSCoding", "NCUpdateResult"]
+- ["PSo8NSCoding", "NSUserDefaults"]
+- !private ["PSo8NSCoding", "RSUnifiedCodeGenerator"]
+- !private ["PSo8NSCoding", "UIEdgeInsetsZero"]
+- ["PSo8NSCoding", "barcode"]
+- ["PSo8NSCoding", "defaults"]
+- ["PSo8NSCoding", "defaultsShared"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "hidden"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "label"]
+- !private ["PSo8NSCoding", "preferredContentSize"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo8NSCoding", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo26NSExtensionRequestHandling", "CGSizeMake"]
+- !private ["PSo26NSExtensionRequestHandling", "NCUpdateResult"]
+- ["PSo26NSExtensionRequestHandling", "NSUserDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "RSUnifiedCodeGenerator"]
+- !private ["PSo26NSExtensionRequestHandling", "UIEdgeInsetsZero"]
+- ["PSo26NSExtensionRequestHandling", "barcode"]
+- ["PSo26NSExtensionRequestHandling", "defaults"]
+- ["PSo26NSExtensionRequestHandling", "defaultsShared"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "label"]
+- !private ["PSo26NSExtensionRequestHandling", "preferredContentSize"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo26NSExtensionRequestHandling", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AVMetadataObjectTypeCode39Code"]
+- !private ["CSo8NSObject", "CGSizeMake"]
+- ["CSo8NSObject", "NCUpdateResult"]
+- ["CSo8NSObject", "NSUserDefaults"]
+- !private ["CSo8NSObject", "RSUnifiedCodeGenerator"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIEdgeInsets"]
+- !private ["CSo8NSObject", "UIEdgeInsetsZero"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "barcode"]
+- ["CSo8NSObject", "defaults"]
+- ["CSo8NSObject", "defaultsShared"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "hidden"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "preferredContentSize"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
+- ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "widgetMarginInsetsForProposedMarginInsets"]
+- ["CSo8NSObject", "widgetPerformUpdateWithCompletionHandler"]
+- !private ["PSo16NSObjectProtocol", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- !private ["PSo16NSObjectProtocol", "NCUpdateResult"]
+- ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "RSUnifiedCodeGenerator"]
+- !private ["PSo16NSObjectProtocol", "UIEdgeInsetsZero"]
+- ["PSo16NSObjectProtocol", "barcode"]
+- ["PSo16NSObjectProtocol", "defaults"]
+- ["PSo16NSObjectProtocol", "defaultsShared"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "label"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "preferredContentSize"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo16NSObjectProtocol", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["CSo14NSUserDefaults", "init"]
+- !private ["CSo14NSUserDefaults", "objectForKey"]
+- ["CSo14NSUserDefaults", "standardUserDefaults"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["P5SHPID15RSCodeGenerator", "generateCode"]
+- !private ["P5SHPID15RSCodeGenerator", "shared"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "deinit"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "generateCode"]
+- !private ["C5SHPID22RSUnifiedCodeGenerator", "shared"]
+- !private ["PSs16RawRepresentable", "NewData"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["C5SHPID19TodayViewController", "AVMetadataObjectTypeCode39Code"]
+- !private ["C5SHPID19TodayViewController", "CGSizeMake"]
+- ["C5SHPID19TodayViewController", "NCUpdateResult"]
+- ["C5SHPID19TodayViewController", "NSUserDefaults"]
+- !private ["C5SHPID19TodayViewController", "RSUnifiedCodeGenerator"]
+- !private ["C5SHPID19TodayViewController", "String"]
+- ["C5SHPID19TodayViewController", "UIEdgeInsets"]
+- !private ["C5SHPID19TodayViewController", "UIEdgeInsetsZero"]
+- ["C5SHPID19TodayViewController", "UIImageView"]
+- ["C5SHPID19TodayViewController", "UILabel"]
+- ["C5SHPID19TodayViewController", "Void"]
+- ["C5SHPID19TodayViewController", "barcode"]
+- ["C5SHPID19TodayViewController", "defaults"]
+- ["C5SHPID19TodayViewController", "defaultsShared"]
+- ["C5SHPID19TodayViewController", "deinit"]
+- ["C5SHPID19TodayViewController", "didReceiveMemoryWarning"]
+- ["C5SHPID19TodayViewController", "init"]
+- ["C5SHPID19TodayViewController", "label"]
+- !private ["C5SHPID19TodayViewController", "preferredContentSize"]
+- ["C5SHPID19TodayViewController", "viewDidLoad"]
+- ["C5SHPID19TodayViewController", "widgetMarginInsetsForProposedMarginInsets"]
+- ["C5SHPID19TodayViewController", "widgetPerformUpdateWithCompletionHandler"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
+- !private ["PSo21UIAppearanceContainer", "NCUpdateResult"]
+- ["PSo21UIAppearanceContainer", "NSUserDefaults"]
+- !private ["PSo21UIAppearanceContainer", "RSUnifiedCodeGenerator"]
+- !private ["PSo21UIAppearanceContainer", "UIEdgeInsetsZero"]
+- ["PSo21UIAppearanceContainer", "barcode"]
+- ["PSo21UIAppearanceContainer", "defaults"]
+- ["PSo21UIAppearanceContainer", "defaultsShared"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "label"]
+- !private ["PSo21UIAppearanceContainer", "preferredContentSize"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo21UIAppearanceContainer", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo18UIContentContainer", "CGSizeMake"]
+- !private ["PSo18UIContentContainer", "NCUpdateResult"]
+- ["PSo18UIContentContainer", "NSUserDefaults"]
+- !private ["PSo18UIContentContainer", "RSUnifiedCodeGenerator"]
+- !private ["PSo18UIContentContainer", "UIEdgeInsetsZero"]
+- ["PSo18UIContentContainer", "barcode"]
+- ["PSo18UIContentContainer", "defaults"]
+- ["PSo18UIContentContainer", "defaultsShared"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "label"]
+- !private ["PSo18UIContentContainer", "preferredContentSize"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo18UIContentContainer", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["CSo11UIImageView", "hidden"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "removeFromSuperview"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "AVMetadataObjectTypeCode39Code"]
+- !private ["CSo11UIResponder", "CGSizeMake"]
+- ["CSo11UIResponder", "NCUpdateResult"]
+- ["CSo11UIResponder", "NSUserDefaults"]
+- !private ["CSo11UIResponder", "RSUnifiedCodeGenerator"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIEdgeInsets"]
+- !private ["CSo11UIResponder", "UIEdgeInsetsZero"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "barcode"]
+- ["CSo11UIResponder", "defaults"]
+- ["CSo11UIResponder", "defaultsShared"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "hidden"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "label"]
+- !private ["CSo11UIResponder", "preferredContentSize"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "widgetMarginInsetsForProposedMarginInsets"]
+- ["CSo11UIResponder", "widgetPerformUpdateWithCompletionHandler"]
+- !private ["PSo16UIStateRestoring", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo16UIStateRestoring", "CGSizeMake"]
+- !private ["PSo16UIStateRestoring", "NCUpdateResult"]
+- ["PSo16UIStateRestoring", "NSUserDefaults"]
+- !private ["PSo16UIStateRestoring", "RSUnifiedCodeGenerator"]
+- !private ["PSo16UIStateRestoring", "UIEdgeInsetsZero"]
+- ["PSo16UIStateRestoring", "barcode"]
+- ["PSo16UIStateRestoring", "defaults"]
+- ["PSo16UIStateRestoring", "defaultsShared"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "label"]
+- !private ["PSo16UIStateRestoring", "preferredContentSize"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo16UIStateRestoring", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AVMetadataObjectTypeCode39Code"]
+- !private ["PSo18UITraitEnvironment", "CGSizeMake"]
+- !private ["PSo18UITraitEnvironment", "NCUpdateResult"]
+- ["PSo18UITraitEnvironment", "NSUserDefaults"]
+- !private ["PSo18UITraitEnvironment", "RSUnifiedCodeGenerator"]
+- !private ["PSo18UITraitEnvironment", "UIEdgeInsetsZero"]
+- ["PSo18UITraitEnvironment", "barcode"]
+- ["PSo18UITraitEnvironment", "defaults"]
+- ["PSo18UITraitEnvironment", "defaultsShared"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "label"]
+- !private ["PSo18UITraitEnvironment", "preferredContentSize"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "widgetMarginInsetsForProposedMarginInsets"]
+- ["PSo18UITraitEnvironment", "widgetPerformUpdateWithCompletionHandler"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AVMetadataObjectTypeCode39Code"]
+- !private ["CSo16UIViewController", "CGSizeMake"]
+- ["CSo16UIViewController", "NCUpdateResult"]
+- ["CSo16UIViewController", "NSUserDefaults"]
+- !private ["CSo16UIViewController", "RSUnifiedCodeGenerator"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIEdgeInsets"]
+- !private ["CSo16UIViewController", "UIEdgeInsetsZero"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "barcode"]
+- ["CSo16UIViewController", "defaults"]
+- ["CSo16UIViewController", "defaultsShared"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "label"]
+- !private ["CSo16UIViewController", "preferredContentSize"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "widgetMarginInsetsForProposedMarginInsets"]
+- ["CSo16UIViewController", "widgetPerformUpdateWithCompletionHandler"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "image"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "removeFromSuperview"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- !private "OSC14NCUpdateResult"
+- "PSo17NCWidgetProviding"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "CSo14NSUserDefaults"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "P5SHPID15RSCodeGenerator"
+- !private "C5SHPID22RSUnifiedCodeGenerator"
+- !private "PSs16RawRepresentable"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C5SHPID19TodayViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "48b66f71898b64f59560fad330deb1f2"
